@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reachymini_home"
+version = "1.0.0"
+description = "Reachy Mini Motor - Voice Controlled Action System"
+requires-python = ">=3.10"
+dependencies = [
+    "reachy_mini",
+    "reachy_mini_dances_library",
+    "websockets",
+    "httpx",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "black", "ruff"]

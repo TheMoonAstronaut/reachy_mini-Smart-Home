@@ -1,0 +1,9 @@
+reachy_mini
+reachy_mini_dances_library
+websockets
+httpx
+
+[dev]
+pytest
+black
+ruff
